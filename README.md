@@ -1,6 +1,6 @@
 # Trip Card Sorting
 
-Solution to common trip card sorting problem in Codeingiter
+Solution to common trip card sorting problem in Codeigniter
 
 Tested on <b> Codeigniter 2.x and 3.x </b>
 
