@@ -9,15 +9,14 @@ Tested on <b> Codeigniter 2.x and 3.x </b>
 	
 	<table>
 	  <tr><td><b>1. Initialization </b></td><td>$objTripSort = $this->trip_sorting->init();</td></tr>
-		<tr><td><b>2. Setting Routes (Any Order) </b></td><td>
-				<ul>
+		<tr><td><b>2. Setting Routes (Any Order) </b></td><td><ul>
 				<li>$objTripSort->setTripRoutes(array("Train", "Madrid", "Barcelona", "45B", "78A", "", ""));</li>
         <li>$objTripSort->setTripRoutes(array("Airport Bus", "Barcelona", "Gerona Airport", "", "", "", ""));</li>
         <li>$objTripSort->setTripRoutes(array("Flight", "Gerona Airport", "Stockholm", "3A", "SK455", "45B", "344"));</li>
         <li>$objTripSort->setTripRoutes(array("Flight", "Stockholm", "Salamanca", "7B", "SK22", "22", "transfer"));</li>
         <li>$objTripSort->setTripRoutes(array("Flight", "Salamanca", "New York JFK", "7B", "SK22", "22", "transfer"));</li>
         <li>$objTripSort->setTripRoutes(array("Flight", "New York JFK", "Madrid", "7B", "SK22", "22", "transfer"));</li>
-		</td></tr>
+        </ul></td></tr>
 		
 		<tr>
 			<td>
