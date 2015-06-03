@@ -23,17 +23,13 @@ Tested on <b> Codeigniter 2.x and 3.x </b>
 			<td>
 					<b>3. Decide Start Point : </b>
 			</td>
-			<td>
-			  $objTripSort->setTripStart('Madrid');
-			</td>
+			<td>$objTripSort->setTripStart('Madrid');</td>
 		</tr>
 		<tr>
 			<td>
 					<b>4. Decide End Point : </b>
 			</td>
-			<td>
-				$objTripSort->setTripEnd('New York JFK');
-			</td>
+			<td>$objTripSort->setTripEnd('New York JFK');</td>
 		</tr>
 		
 		<tr>
