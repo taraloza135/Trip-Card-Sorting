@@ -2,20 +2,20 @@
 
 Solution to common trip card sorting problem in Codeigniter
 
-Tested on ** Codeigniter 2.x and 3.x **
+Tested on **Codeigniter 2.x and 3.x**
 
 <pre>
 	<h5>Function List</h5>
 	<table>
 	  <tr><td align="right"><b>1. Initialization </b></td><td align="left">$objTripSort = $this->trip_sorting->init();</td></tr>
-		<tr><td align="right"><b>2. Setting Routes (Any Order) </b></td><td align="left"><ul>
+		<tr><td align="right"><b>2. Setting Routes (Any Order) </b></td><td align="left"><ol>
 				<li>$objTripSort->setTripRoutes(array("Train", "Madrid", "Barcelona", "45B", "78A", "", ""));</li>
         <li>$objTripSort->setTripRoutes(array("Airport Bus", "Barcelona", "Gerona Airport", "", "", "", ""));</li>
         <li>$objTripSort->setTripRoutes(array("Flight", "Gerona Airport", "Stockholm", "3A", "SK455", "45B", "344"));</li>
         <li>$objTripSort->setTripRoutes(array("Flight", "Stockholm", "Salamanca", "7B", "SK22", "22", "transfer"));</li>
         <li>$objTripSort->setTripRoutes(array("Flight", "Salamanca", "New York JFK", "7B", "SK22", "22", "transfer"));</li>
         <li>$objTripSort->setTripRoutes(array("Flight", "New York JFK", "Madrid", "7B", "SK22", "22", "transfer"));</li>
-        </ul></td></tr>
+        </ol></td></tr>
 		
 		<tr>
 			<td align="right">
