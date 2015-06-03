@@ -4,8 +4,7 @@ Solution to common trip card sorting problem in Codeigniter
 
 Tested on <b> Codeigniter 2.x and 3.x </b>
 
-
-	<h4>Function List</h4>
+	<pre><h4>Function List</h4>
 	<table>
 	  <tr><td><b>1. Initialization </b></td><td>$objTripSort = $this->trip_sorting->init();</td></tr>
 		<tr><td><b>2. Setting Routes (Any Order) </b></td><td><ul>
@@ -39,4 +38,4 @@ From Stockholm, take flight SK22 to Salamanca. Gate 7B, seat 22. Baggage will we
 From Salamanca, take flight SK22 to New York JFK. Gate 7B, seat 22. Baggage will we automatically transferred from your last leg.</td>
 		</tr>
 		
-	</table>
+	</table></pre>
